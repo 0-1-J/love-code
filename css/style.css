@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  background: rgb(0, 0, 0);
+  background: #ff5555;
   overflow: hidden;
   margin: 0;
   /* background-color: #000 !important; */
@@ -27,6 +27,7 @@ heart {
   color: #FFF;
   text-align: center;
   /* background: #e74c3c; */
+  font-size: 30px;
   transform: rotate(360deg) scale(.6);
   opacity: .5;
   animation-name: opacity;
@@ -40,7 +41,7 @@ heart {
 heart::before {
   position: absolute;
   content: 'love-code';
-  width: 80px;
+  width: 200px;
   height: 20px;
   /* background: #e74c3c; */
   border-radius: 50%;
